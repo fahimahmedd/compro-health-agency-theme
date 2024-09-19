@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Compro Health </title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&amp;family=Poppins:wght@400;500;600;700;800;900&amp;family=Roboto:wght@300;400;500;700;900&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- Search Bar  Start -->
+    <div class="searchBar">
+        <div class="closebtn">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="searchOverly">
+        </div>
+        <div class="searchContent">
+            <form action="#">
+                <input type="text" class="form_control" placeholder="Search something..">
+                <div class="saerch_icon closebtn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Search bar End -->
+
+
+    <!----- Header Section Start ----->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <a class="mob-navbar-hamburger d-lg-none d-block" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeft">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+                <a href="index.html">
+                    <div class="logo">
+                        <img src="./images/logo.png" alt="">
+                    </div>
+                </a>
+                <div class="header-conetnt">
+                    <ul class="header-nav d-lg-block d-none">
+                        <li><a href="index.html"> Home </a></li>
+                        <li><a href="#service">Applications</a></li>
+                        <li><a href="#system">Compro System</a></li>
+                        <li><a href="#contact"> Contact Us </a></li>
+                        <li><a href="tel:+88 01234456677" class="call-btn"> Call Us <span>(+1 551 278 5742)</span> </a>
+                        </li>
+                    </ul>
+                    <button class="c-login-btn d-lg-block d-none" data-bs-toggle="modal" data-bs-target="#loginModal">
+                        <i class="fa-solid fa-user"></i> Client Log In
+                    </button>
+                    <div class="search-icon search-Button">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile  Navigate Part Start -->
+    <div class="offcanvas offcanvas-start mob-navbar-offcan" tabindex="-1" id="offcanvasLeft"
+        aria-labelledby="offcanvasLeftLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasLeftLabel">
+                <a href="index.html">
+                    <div class="offcan-logo">
+                        <img src="./images/logo.png" alt="">
+                    </div>
+                </a>
+            </h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="header-conetnt">
+                <ul class="header-nav">
+                    <li><a href="index.html" data-bs-dismiss="offcanvas" aria-label="Close"> Home </a></li>
+                    <li><a href="#service" data-bs-dismiss="offcanvas" aria-label="Close">Applications</a></li>
+                    <li><a href="#system" data-bs-dismiss="offcanvas" aria-label="Close">Compro System</a></li>
+                    <li><a href="#contact" data-bs-dismiss="offcanvas" aria-label="Close"> Contact Us </a></li>
+                    <li><a href="tel:+88 01234456677"> Call Us <span>(+1 551 278 5742)</span> </a></li>
+                </ul>
+                <button class="c-login-btn" data-bs-toggle="modal" data-bs-target="#loginModal"
+                    data-bs-dismiss="offcanvas" aria-label="Close">
+                    <i class="fa-solid fa-user"></i> Client Log In
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-----  Header Section End  ----->
+
+
+    <!-----  Hero Section Start  ----->
+    <section class="hero">
+        <div class="hero-shape-1">
+            <img src="./images/homeShape-2.png" alt="">
+        </div>
+        <div class="hero-shape-2">
+            <img src="./images/homeShape-1.png" alt="">
+        </div>
+        <div class="hero-shape-3">
+            <img src="./images/homeShape-3.png" alt="">
+        </div>
+        <div class="container">
+            <div class="hero-wrapper">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="hero-content" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">
+                            <h1>Revenue Cycle Optimization <span>Utilizing Analytics</span></h1>
+                            <p>Compro Health Provides Analytics and Audits to improve Coding and Reimbursement and to
+                                help customers identify trends impacting Revenue.</p>
+                            <div class="hero-content-bottom">
+                                <a href="#contact">
+                                    <button class="demo-btn">
+                                        Request A Demo
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="hero-img">
+                            <img src="./images/home-round.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----  Hero Section End  ----->
+
+    <!-----  Service Section Start  ----->
+    <section class="service" id="service">
+        <div class="container">
+            <div class="section-heading">
+                <h2><span>Services</span> We Provide <br> with Quality.</h2>
+                <h6>Services tailored to client's unique needs.
+                </h6>
+            </div>
+            <div class="service-wrapper">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service-card">
+                            <div class="service-icon-img">
+                                <img src="./images/service_1.png" alt="">
+                            </div>
+                            <h4>Validating Billing Accuracy</h4>
+                            <ul>
+                                <li>Coding and Reimbursement Audit</li>
+                                <li>Billing Error Identification and Correction</li>
+                                <li>Zero-Balance Payment Review</li>
+                            </ul>
+                            <div class="right-bow">
+                                <img src="./images/right-arrow.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service-card">
+                            <div class="service-icon-img">
+                                <img src="./images/service_2.png" alt="">
+                            </div>
+                            <h4>Trend Analyses</h4>
+                            <ul>
+                                <li>Identify Trends in Billing Errors</li>
+                                <li>Reimbursement Variance Review</li>
+                                <li>Illustrate Common User Errors</li>
+                            </ul>
+                            <div class="right-bow">
+                                <img src="./images/right-arrow.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service-card">
+                            <div class="service-icon-img">
+                                <img src="./images/service_3.png" alt="">
+                            </div>
+                            <h4>Denials and Underpayments</h4>
+                            <ul>
+                                <li>Identify Opportunities</li>
+                                <li>Complete Collections</li>
+                                <li>Inform Billing Process to Reduce Future
+                                    Impact</li>
+                            </ul>
+                            <div class="right-bow">
+                                <img src="./images/right-arrow.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service-card">
+                            <div class="service-icon-img">
+                                <img src="./images/service_4.png" alt="">
+                            </div>
+                            <h3>Alternate Payer Calculation</h3>
+                            <ul>
+                                <li>Identify Registration Errors</li>
+                                <li>Compare Payer Reimbursement</li>
+                                <li>Review Optimal Rate On Multiple Contracts</li>
+                            </ul>
+                            <div class="right-bow">
+                                <img src="./images/right-arrow.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service-card">
+                            <div class="service-icon-img">
+                                <img src="./images/service_5.png" alt="">
+                            </div>
+                            <h4>Contract Review</h4>
+                            <ul>
+                                <li>Contract Modeling</li>
+                                <li>Independent Reimbursement Calculation</li>
+                                <li>Identify Potential Improvements</li>
+                            </ul>
+                            <div class="right-bow">
+                                <img src="./images/right-arrow.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----  Service Section End  ----->
+
+
+    <!-----  Machine Learning Section Start  ----->
+    <section class="machine" id="machine">
+        <div class="container">
+            <div class="machine-wrapper">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="machine-img">
+                            <img src="./images/animation.gif" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="machine-content">
+                            <h4>Compro Health Analytics: Enhancing Revenue Management with <br> <span>Machine
+                                    Learning</span></h4>
+                            <p> Technology designed to deliver superior business
+                                solutions to achieve highest performance goals.
+                            </p>
+
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> Review and Validate Credit Balance Accounts</li>
+                                <li><i class="fa-solid fa-check"></i> Follow-Up and Appeal Underpaid and Denied Claims
+                                    Efficiently</li>
+                                <li><i class="fa-solid fa-check"></i> Review Zero Balance Paid Claims</li>
+                                <li><i class="fa-solid fa-check"></i> Identify Trends Impacting Performance and
+                                    Reimbursement</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----  Machine Learning Section End  ----->
+
+
+    <!----- Compro System Section Start ------>
+    <section class="system" id="system">
+        <div class="container">
+            <!-- <div class="section-heading text-center">
+                <h3> The Compro System </h3>
+                <h5>How work it </h5>
+            </div> -->
+            <div class="system-wrapper">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="system-wrapper-right" style="background-image: url(./images/system-money.webp);">
+                            <div class="right-content">
+                                <h2>Compro Health <span>Analytics</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="system-wrapper-left">
+                            <div class="system-card">
+                                <div class="card-icon">
+                                    <img src="./images/s-1.png" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h4>Validating Billing Accuracy</h4>
+                                    <ul>
+                                        <li>Coding and Reimbursement Audit</li>
+                                        <li>Billing Error Identification and Correction</li>
+                                        <li>Zero-Balance Payment Review</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="system-card">
+                                <div class="card-icon">
+                                    <img src="./images/s-2.png" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h4>Constructing Trend Analyses</h4>
+                                    <ul>
+                                        <li> Identify Billing Error</li>
+                                        <li> Reimbursement Variance </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="system-card">
+                                <div class="card-icon">
+                                    <img src="./images/s-3.png" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h4>Providing Alternate Payer Calculations</h4>
+                                </div>
+                            </div>
+                            <div class="system-card">
+                                <div class="card-icon">
+                                    <img src="./images/s-4.png" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h4>Supporting Contract Review and Modeling Efforts</h4>
+                                </div>
+                            </div>
+                            <div class="system-card">
+                                <div class="card-icon">
+                                    <img src="./images/s-5.png" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h4>Facilitating Denial Management and Underpayment Best Practices</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----- Compro System Section End ------>
+
+
+    <!----- Case Study Section Start ------>
+    <section class="information">
+        <div class="container">
+            <div class="information-wrapper">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="information-wrap">
+                            <div class="icon">
+                                <img src="./images/info-1.png" alt="">
+                            </div>
+                            <h5>Our Address</h5>
+                            <p>800 Kinderkamack Rd <br> Suite 203N Oradell, NJ 07649</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="information-wrap">
+                            <div class="icon">
+                                <img src="./images/info-2.png" alt="">
+                            </div>
+                            <h5>Contact Info </h5>
+                            <p>Open a chat or give us call at <br> <span>+1 551 278 5742</span> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----- Case Study Section End ------>
+
+
+    <!----- Send Message Section Start ------>
+    <section class="message" id="contact">
+        <div class="container">
+            <div class="message-wrapper">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="section-heading">
+                            <h2>Contact <span>Compro Health</span></h2>
+                            <h6>Our technology and experience is perfect to help you achieve your goals.</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="message-form">
+                            <form action="#">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <label for="name"> Full Name <span>*</span> </label>
+                                        <input type="text" class="form-controll" id="name" name="" placeholder="Name">
+                                    </div>
+                                    <div class="col-lg-12 mt-4">
+                                        <label for="email"> E-mail Address <span>*</span> </label>
+                                        <input type="email" class="form-controll" id="email" name=""
+                                            placeholder="E-mail">
+                                    </div>
+                                    <div class="col-lg-12 mt-4">
+                                        <label for="number"> Phone Number <span>*</span> </label>
+                                        <input type="number" class="form-controll" id="number" name=""
+                                            placeholder="Phone Number">
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="type" class="mt-4">Select Type <span>*</span></label>
+                                        <select class="form-select form-controll" aria-label="Default select example">
+                                            <option selected>Select</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-12 mt-4">
+                                        <a data-bs-toggle="modal" data-bs-target="#massageRequestModal">
+                                            <button class="submit-btn">
+                                                Submit
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----- Send Message Section End ----->
+
+
+    <!----- Footer Section Start ------>
+    <section class="footer">
+        <div class="container">
+            <div class="footer_wrapper">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 col-12">
+                        <div class="footer_wrap">
+                            <a href="index.html">
+                                <div class="footer_logo">
+                                    <img src="./images/logo.png" alt="">
+                                </div>
+                            </a>
+                            <p>Compro Health was founded by a team of serial entrepreneurs with a focus on Healthcare
+                                and Revenue Cycle Management. This team believes that hospitals should be paid the
+                                correct amount for their services and businesses should understand the cost for Employee
+                                Medical benefits. </p>
+                            <p>Healthcare organizations and Businesses continue to lose money without a clear
+                                understanding of how to improve the situation and proactively prevent this loss from
+                                occurring now and in the future.Compro Health is building the tools needed to fix these
+                                problems.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-6">
+                        <div class="footer_wrap">
+                            <h4>Important Links</h4>
+                            <ul>
+                                <li><a href="index.html"> Home </a></li>
+                                <li><a href="#service"> Services </a></li>
+                                <li><a href="#contact"> Contact Us </a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-sm-4 col-6">
+                        <div class="footer_wrap">
+                            <h4> Who We are </h4>
+                            <ul>
+                                <li><a href="#system"> The Compro System </a></li>
+                                <li><a href="#service"> Applications </a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-sm-4 col-6">
+                        <div class="footer_wrap">
+                            <h4> Legal </h4>
+                            <ul>
+                                <li><a data-bs-toggle="modal" data-bs-target="#termOfUseModal"> Terms of use </a></li>
+                                <li><a data-bs-toggle="modal" data-bs-target="#privacyPolicyModal"> Terms & conditions
+                                    </a></li>
+                                <li><a data-bs-toggle="modal" data-bs-target="#termConditionModal"> Privacy policy </a>
+                                </li>
+                                <li><a data-bs-toggle="modal" data-bs-target="#cookieModal"> Cookie policy </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <span> Copyright @2024 ComproHealthAnalytics </span>
+                <ul>
+                    <li><a data-bs-toggle="modal" data-bs-target="#privacyPolicyModal"> Privacy & Terms, </a></li>
+                    <li><a href="#contact"> Contact Us </a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!----- Footer Section End ------>
+
+    <!-- Back to top button -->
+    <a id="back-to-top"></a>
+
+
+    <!-------- Modal Parts ------->
+
+    <!--- Login Modal --->
+    <div class="modal fade loginModal " id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="login-body-content">
+                        <div class="logo">
+                            <img src="./images/logo.png" alt="">
+                        </div>
+                        <h4>Log In Your Compro Account</h4>
+                        <div class="login-form">
+                            <form>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" name="" id="floatingInput"
+                                        placeholder="E-mail">
+                                    <label for="floatingInput">Your E-mail</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="password" class="form-control" name="" id="floatingPassword"
+                                        placeholder="Password">
+                                    <label for="floatingPassword">Your Password</label>
+                                </div>
+                                <div class="form-managment text-end mt-2">
+                                    <span> Forgot Password? </span>
+                                </div>
+                                <div class="d-grid  col-12 mx-auto mt-3">
+                                    <button class="btn loginBtn" type="button">Log In</button>
+                                </div>
+                                <div class="sign-up-btn">
+                                    Don't have an account? <span>Sign up</span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--- Demo Reqiuest Sent Message --->
+    <div class="modal fade message-modal" id="massageRequestModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="mail-icon">
+                        <img src="./images/mail-img.png" alt="">
+                    </div>
+                    <h6>Check Your E-mail</h6>
+                    <h3> We sent a link in your email </h3>
+                    <button class="modal-close-btn" data-bs-dismiss="modal"> OK </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------ Terms Of Use Modal ------>
+    <div class="modal fade common-modal" id="termOfUseModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="logo">
+                        <img src="./images/logo.png" alt="">
+                    </div>
+                    <div class="common-page-content-wrapper">
+                        <h4>Compro Health Analytics <span>Terms of Use</span></h4>
+                        <ul>
+                            <li>
+                                <h5>1. Acceptance of Terms </h5>
+                                <p>By accessing or using the Services, you agree to these Terms of Use and our Privacy
+                                    Policy.
+                                    If you do not agree, do not use the Services.</p>
+                            </li>
+                            <li>
+                                <h5>2. Use of Services </h5>
+                                <p>You agree to use the Services only for lawful purposes and in a manner consistent
+                                    with all
+                                    applicable laws, regulations, and this agreement.</p>
+                            </li>
+                            <li>
+                                <h5>3. Account Registration </h5>
+                                <p>To access certain features of the Services, you may be required to register for an
+                                    account.
+                                    You agree to provide accurate and complete information during the registration
+                                    process and
+                                    to update such information to keep it accurate and current. </p>
+                            </li>
+                            <li>
+                                <h5> 4. Intellectual Property</h5>
+                                <p> The Services, including all content, features, and functionality, are owned by
+                                    Compro Health
+                                    and its licensors and are protected by intellectual property laws. You may not
+                                    reproduce,
+                                    distribute, modify, create derivative works, publicly display, publicly perform,
+                                    republish,
+                                    download, store, or transmit any of the material on our Services.</p>
+                            </li>
+                            <li>
+                                <h5> 5. Data Security </h5>
+                                <p> Compro Health takes the security of your data seriously. We implement reasonable
+                                    measures to
+                                    protect the confidentiality and integrity of your data. However, no system can be
+                                    completely
+                                    secure, and we cannot guarantee that unauthorized access or breaches will not occur.
+                                </p>
+                            </li>
+                            <li>
+                                <h5> 6. Limitation of Liability</h5>
+                                <p>In no event shall Compro Health or its affiliates be liable for any indirect,
+                                    incidental,
+                                    special, consequential, or punitive damages arising out of or in connection with
+                                    your use of
+                                    the Services.</p>
+                            </li>
+                            <li>
+                                <h5>7. Termination </h5>
+                                <p> Compro Health reserves the right to terminate or suspend your account and access to
+                                    the
+                                    Services, with or without cause, at any time and without notice. </p>
+                            </li>
+                            <li>
+                                <h5> 8. Changes to Terms </h5>
+                                <p> We may revise and update these Terms of Use from time to time. Your continued use of
+                                    the
+                                    Services after the effective date of any such changes constitutes your acceptance of
+                                    the
+                                    revised terms. </p>
+                            </li>
+                            <li>
+                                <h5>9. Governing Law</h5>
+                                <p>These Terms of Use are governed by and construed in accordance with the laws of
+                                    [Jurisdiction]. </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex justify-content-center mt-5">
+                        <button class="modal-close-btn" data-bs-dismiss="modal"> OK </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------ Privacy Policy Modal ------>
+    <div class="modal fade common-modal" id="privacyPolicyModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="logo">
+                        <img src="./images/logo.png" alt="">
+                    </div>
+                    <div class="common-page-content-wrapper">
+                        <h4>Compro Health Analytics <span> Privacy Policy </span> </h4>
+                        <ul>
+                            <li>
+                                <h5> 1. Information We Collect </h5>
+                                <h5> 1.1 Information You Provide </h5>
+                                <p> We collect information that you voluntarily provide when using our Services,
+                                    including but
+                                    not limited to, your name, email address, and other contact information.
+                                </p>
+                            </li>
+                            <li>
+                                <h5>1.2 Information Collected Automatically
+                                </h5>
+                                <p> We may automatically collect certain information when you use our Services, such as
+                                    your IP
+                                    address, device information, and usage patterns. This information helps us improve
+                                    the
+                                    Services and customize your experience.
+                                </p>
+                            </li>
+                            <li>
+                                <h5>2. Use of Information
+                                </h5>
+                                <p> We use the collected information for various purposes, including:
+                                </p>
+                                <ul>
+                                    <li>Providing and maintaining the Services</li>
+                                    <li>Personalizing your experience</li>
+                                    <li>Analyzing usage patterns and improving the Services</li>
+                                    <li>Sending you important updates and communications</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5> 3. Data Sharing </h5>
+                                <p> We do not sell, trade, or rent your personal information to third parties. However,
+                                    we may
+                                    share your information with trusted third parties who assist us in operating our
+                                    Services,
+                                    conducting our business, or servicing you.
+                                </p>
+                            </li>
+                            <li>
+                                <h5> 4. Data Security
+                                </h5>
+                                <p> We implement reasonable security measures to protect your personal information.
+                                    However, no
+                                    method of transmission over the internet or electronic storage is completely secure,
+                                    and we
+                                    cannot guarantee absolute security.
+                                </p>
+                            </li>
+                            <li>
+                                <h5> 5. Cookies and Similar Technologies
+                                </h5>
+                                <p> We use cookies and similar technologies to enhance your experience and collect
+                                    information
+                                    about how you use the Services. You can control the use of cookies through your
+                                    browser
+                                    settings.
+                                </p>
+                            </li>
+                            <li>
+                                <h5> 6. Your Choices
+                                </h5>
+                                <p> You can choose not to provide certain information, but it may limit your ability to
+                                    use
+                                    certain features of the Services. You can also opt-out of receiving promotional
+                                    communications.
+                                </p>
+                            </li>
+                            <li>
+                                <h5>7. Children's Privacy
+                                </h5>
+                                <p> Our Services are not directed to individuals under the age of 18. We do not
+                                    knowingly
+                                    collect personal information from children. If you believe that a child has provided
+                                    us with
+                                    personal information, please contact us, and we will take steps to delete such
+                                    information.
+                                </p>
+                            </li>
+                            <li>
+                                <h5> 8. Changes to Privacy Policy
+                                </h5>
+                                <p> We may update our Privacy Policy from time to time. Any changes will be effective
+                                    immediately upon posting the updated Privacy Policy. We encourage you to review this
+                                    Privacy
+                                    Policy regularly for any changes.
+                                </p>
+                            </li>
+                            <li>
+                                <h6>Thank you for choosing <span>Compro Health Analytics.</span> </h6>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex justify-content-center mt-5">
+                        <button class="modal-close-btn" data-bs-dismiss="modal"> OK </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------ Terms & Conditions Policy Modal ------>
+    <div class="modal fade common-modal" id="termConditionModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="logo">
+                        <img src="./images/logo.png" alt="">
+                    </div>
+                    <div class="common-page-content-wrapper">
+                        <h4>Compro Health Analytics <span> Terms & Conditions </span> </h4>
+                        <ul>
+                            <li>
+                                <h5> 1. Acceptance of Terms </h5>
+                                <p> By accessing or using the Services, you agree to these Terms and Conditions and our
+                                    Privacy
+                                    Policy. If you do not agree, do not use the Services. </p>
+                            </li>
+                            <li>
+                                <h5> 2. Use of Services
+                                </h5>
+                                <p> You agree to use the Services only for lawful purposes and in a manner consistent
+                                    with all
+                                    applicable laws, regulations, and this agreement.
+                                </p>
+                            </li>
+                            <li>
+                                <h5> 3. Account Registration
+                                </h5>
+                                <p> To access certain features of the Services, you may be required to register for an
+                                    account.
+                                    You agree to provide accurate and complete information during the registration
+                                    process and
+                                    to update such information to keep it accurate and current.
+                                </p>
+                            </li>
+                            <li>
+                                <h5> 4. Service Availability
+                                </h5>
+                                <p> Compro Health reserves the right to modify, suspend, or discontinue the Services at
+                                    any time
+                                    without notice. We shall not be liable for any modification, suspension, or
+                                    discontinuance
+                                    of the Services.
+                                </p>
+                            </li>
+                            <li>
+                                <h5>5. User Responsibilities
+                                </h5>
+                                <p> You are responsible for maintaining the confidentiality of your account and
+                                    password. You
+                                    agree to notify us immediately of any unauthorized access to or use of your account.
+                                </p>
+                            </li>
+                            <li>
+                                <h5> 6. Data Ownership and Usage
+                                </h5>
+                                <p> While using the Services, you retain ownership of any data you submit. Compro Health
+                                    may use
+                                    aggregated and anonymized data for analytics, research, and improvement of the
+                                    Services.
+                                </p>
+                            </li>
+                            <li>
+                                <h5>7. Confidentiality
+                                </h5>
+                                <p> You agree not to disclose any confidential information obtained through the Services
+                                    without
+                                    the express written consent of Compro Health.
+                                </p>
+                            </li>
+                            <li>
+                                <h5>8. Limitation of Liability
+                                </h5>
+                                <p> In no event shall Compro Health or its affiliates be liable for any indirect,
+                                    incidental,
+                                    special, consequential, or punitive damages arising out of or in connection with
+                                    your use of
+                                    the Services.
+                                </p>
+                            </li>
+                            <li>
+                                <h5>9. Indemnification
+                                </h5>
+                                <p> You agree to indemnify and hold harmless Compro Health and its affiliates from any
+                                    claims,
+                                    damages, liabilities, costs, or expenses arising out of your use of the Services or
+                                    violation of these Terms and Conditions.
+                                </p>
+                            </li>
+                            <li>
+                                <h5> 10. Governing Law
+                                </h5>
+                                <p> These Terms and Conditions are governed by and construed in accordance with the laws
+                                    of
+                                    [Jurisdiction].
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex justify-content-center mt-5">
+                        <button class="modal-close-btn" data-bs-dismiss="modal"> OK </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------ Cookie Policy Modal ------>
+    <div class="modal fade common-modal" id="cookieModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="logo">
+                        <img src="./images/logo.png" alt="">
+                    </div>
+                    <div class="common-page-content-wrapper">
+                        <h4>Compro Health Analytics <span> Cookie Policy </span> </h4>
+                        <ul>
+                            <li>
+                                <h5>1. What Are Cookies?
+                                </h5>
+                                <p>Cookies are small text files that are stored on your device (computer, tablet, or
+                                    mobile)
+                                    when you visit a website or use an application. They help us recognize your device
+                                    and store
+                                    information about your preferences or actions.
+                                </p>
+                            </li>
+                            <li>
+                                <h5> 2. Types of Cookies We Use </h5>
+                                <h5>2.1 Essential Cookies
+                                </h5>
+                                <p> These cookies are necessary for the basic functionality of our Services. They enable
+                                    you to
+                                    navigate the site and use its features.
+                                </p>
+                            </li>
+                            <li>
+                                <h5> 2.2 Analytical/Performance Cookies
+                                </h5>
+                                <p> We use these cookies to analyze how users interact with our Services, helping us
+                                    improve
+                                    functionality and user experience.
+                                </p>
+                            </li>
+                            <li>
+                                <h5> 2.3 Functionality Cookies
+                                </h5>
+                                <p>These cookies allow us to remember your preferences and provide enhanced features,
+                                    such as
+                                    personalized content.
+                                </p>
+                            </li>
+                            <li>
+                                <h5> 2.4 Targeting/Advertising Cookies
+                                </h5>
+                                <p> We may use these cookies to deliver relevant advertisements and track the
+                                    effectiveness of
+                                    our advertising campaigns.
+                                </p>
+                            </li>
+                            <li>
+                                <h5>3. How We Use Cookies
+                                </h5>
+                                <p> We use cookies for various purposes, including:
+                                </p>
+                                <ul>
+                                    <li>Recognize you when you visit our site
+                                    </li>
+                                    <li>Analyzing how you use our Services
+                                    </li>
+                                    <li>Personalizing your experience
+                                    </li>
+                                    <li>Improving the functionality of our Services
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5> 4. Managing Cookies
+                                </h5>
+                                <p> You can control and manage cookies through your browser settings. Most browsers
+                                    allow you to
+                                    refuse or accept cookies, delete specific cookies, or disable cookies altogether.
+                                    However,
+                                    please note that disabling cookies may affect the functionality of our Services.
+                                </p>
+                            </li>
+                            <li>
+                                <h5> 5. Third-Party Cookies
+                                </h5>
+                                <p>We may use third-party services that also use cookies. We do not have control over
+                                    these
+                                    cookies. Please review the respective third-party privacy and cookie policies for
+                                    more
+                                    information.
+                                </p>
+                            </li>
+                            <li>
+                                <h5>6. Changes to Cookie Policy
+                                </h5>
+                                <p> We may update our Cookie Policy from time to time. Any changes will be effective
+                                    immediately
+                                    upon posting the updated Cookie Policy. We encourage you to review this Cookie
+                                    Policy
+                                    regularly for any changes.
+                                </p>
+                            </li>
+                            <li>
+                                <h5> 7. Contact Information
+                                </h5>
+                                <p> If you have any questions or concerns about this Cookie Policy, please contact us at
+                                    [Contact Information].
+                                </p>
+                            </li>
+
+                            <li>
+                                <h6>Thank you for choosing <span>Compro Health Analytics.</span> </h6>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex justify-content-center mt-5">
+                        <button class="modal-close-btn" data-bs-dismiss="modal"> OK </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Javascript Script Linker Part
+--------------------------------------------------->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/custom.js"></script>
+</body>

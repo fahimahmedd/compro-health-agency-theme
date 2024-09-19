@@ -1,0 +1,52 @@
+.machine {
+  padding: 60px 0;
+  background-color: #edf6fd;
+  border-bottom: 1px solid #c3c3c35d;
+  .machine-wrapper {
+    .machine-img {
+      img {
+        max-height: 500px;
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+    .machine-content {
+      h4 {
+        font-size: 30px;
+        line-height: 42px;
+        color: $primaryColor;
+        font-weight: 500;
+        margin-bottom: 20px;
+        span {
+          color: $secondaryColor;
+          position: relative;
+          &::after {
+            position: absolute;
+            content: "";
+            height: 2px;
+            width: 100%;
+            background-color: $secondaryColor;
+            bottom: 0;
+            left: 0;
+          }
+        }
+      }
+      p {
+        color: $blackColor;
+        line-height: 26px;
+        font-weight: 300;
+      }
+      ul {
+        li {
+          margin-top: 8px;
+          font-size: 14px;
+          font-weight: 300;
+          i {
+            color: #00cd39;
+            margin-right: 6px;
+          }
+        }
+      }
+    }
+  }
+}

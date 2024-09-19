@@ -1,0 +1,330 @@
+@media (min-width: 220px) and (max-width: 991.98px){
+    .header .header-wrapper .logo img {
+        max-height: 50px;
+        max-width: 200px;
+    }
+    .searchBar .searchContent {
+        width: 90%;
+    }
+    .searchBar .closebtn {
+        right: 20px;
+        top: 20px;
+    }
+    .hero .hero-wrapper .hero-content h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .hero .hero-wrapper .hero-content {
+        text-align: center;
+    }
+    .hero .hero-wrapper .hero-content .hero-content-bottom {
+       justify-content: center;
+    }
+    .hero {
+        height: auto;
+        padding: 80px 0;
+    }
+    
+    .hero .hero-wrapper .hero-img img {
+        width: 100%;
+        max-height: 400px;
+        max-width: 400px;
+    }
+    .hero .hero-wrapper .hero-img {
+        position: relative;
+        right: 0;
+        top: 0;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .hero .hero-shape-2 img {
+        display: none;
+    }
+    .header .header-wrapper .header-conetnt .search-icon {
+        margin-left: 0px;
+    }
+    .about-content{
+        margin-top: 20px;
+    }
+    .about .about-wrapper .about-content h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .section-heading h2 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .service .service-wrapper .service-card {
+        margin-top: 30px;
+        padding: 15px 10px 10px 10px;
+        text-align: center;
+    }
+    .service .service-wrapper .service-card ul li {
+        list-style: none;
+        font-size: 14px;
+    }
+    .service .service-wrapper .service-card ul {
+        padding-left: 0px;
+    }
+    .machine .machine-wrapper .machine-content h4 {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .dotes_anim_bloack{
+        display: none;
+    }
+    .requesr-form{
+        margin-top: 20px;
+    }
+    .caseStudy-img{
+        margin-top: 30px;
+    }
+    .message-form{
+        margin-top: 20px;
+    }
+    .message .message-wrapper .message-form h4 {
+        margin-bottom: 20px;
+    }
+    .newsLetter .newsLetter-content h2 {
+        font-size: 26px;
+        line-height: 43px;
+        margin-bottom: 20px;
+    }
+    .footer .footer_wrapper .footer_wrap .footer_logo {
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .footer_wrap{
+        margin-top: 10px;
+    }
+    .loginModal .modal-body .login-body-content .logo img {
+        max-height: 52px;
+        width: auto;
+        object-fit: contain;
+    }
+    .message-modal .modal-body h3 {
+        font-size: 20px;
+    }
+    .common-page-content .common-page-content-wrapper h4 {
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 15px;
+    }
+    .common-page-content {
+        padding: 40px 0;
+    }
+    .common-page-content .common-page-content-wrapper ul li h5 {
+        font-size: 16px;
+    }
+    .common-page-content .common-page-content-wrapper ul li p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .mob-flex-end{
+        justify-content: flex-end !important;
+    }
+    .section-heading h6 .arrow-shape {
+        display: none;
+    }
+    .system .system-wrapper .system-wrapper-right {
+       height: 300px;
+       border-radius: 16px;
+       overflow: hidden;
+    }
+    .system .system-wrapper .system-wrapper-right .right-content {
+        text-align: center;
+    }
+    .system .system-wrapper .system-wrapper-right .right-content h2 {
+        font-size: 26px;
+        line-height: 45px;
+        margin-bottom: 10px;
+    }
+    .common-modal .modal-body {
+        padding: 30px 15px;
+    }
+    .common-modal .common-page-content-wrapper h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .common-modal .logo img {
+        max-height: 50px;
+        max-width: 200px;
+    }
+}
+
+@media (min-width: 220px) and (max-width: 349.98px){
+    .header .header-wrapper .logo img {
+        max-width: 140px;
+    }
+    .mob-navbar-hamburger i {
+        font-size: 16px;
+        height: 35px;
+        width: 35px;
+    }
+    .header .header-wrapper .header-conetnt .search-icon i {
+        font-size: 14px;
+        height: 35px;
+        width: 35px;
+    }
+    .hero .hero-wrapper .hero-content h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .hero .hero-wrapper .hero-content p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .hero .hero-wrapper .hero-content .hero-content-bottom .demo-btn {
+        padding: 7px 15px;
+        font-size: 13px;
+    }
+    .about .about-wrapper .about-content h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .about .about-wrapper .about-content h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .section-heading h2 {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .machine .machine-wrapper .machine-content h4 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .section-heading h3 {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+    .section-heading h5 {
+        font-size: 13px;
+    }
+    .demo-request .requesr-form .form-controll {
+        height: 40px;
+    }
+    .demo-request .requesr-form .form-controll::placeholder{
+        font-size: 13px;
+    }
+    .demo-request .requesr-form label {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .case-study .caseStudy-wrapper .caseStudy-content h2 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .message .message-wrapper .message-form .form-controll {
+        height: 40px;
+    }
+    .message .message-wrapper .message-form .form-controll::placeholder{
+        font-size: 13px;
+    }
+    .message .message-wrapper .message-form label {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .newsLetter .newsLetter-content h2 {
+        font-size: 20px;
+        line-height: 38px;
+        margin-bottom: 20px;
+    }
+    .newsLetter .subscribe_input .subscribe_btn {
+        height: 42px;
+        padding: 0 12px;
+        font-size: 12px;
+    }
+    .newsLetter .subscribe_input .from_control {
+        height: 42px;
+        font-size: 15px;
+        padding: 0 8px;
+    }
+    .footer .footer_wrapper .footer_wrap .footer_logo img {
+        max-height: 70px;
+        width: auto;
+        max-width: 150px;
+        object-fit: contain;
+    }
+    .footer .footer_wrapper .footer_wrap p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .loginModal .modal-body .login-body-content .logo img {
+        max-height: 48px;
+    }
+    .loginModal .modal-body {
+        padding: 10px 0 !important;
+    }
+    .loginModal .modal-body .login-body-content {
+        width: 100%;
+        padding: 15px 10px;
+    }
+    .message-modal .modal-body h3 {
+        font-size: 16px;
+    }
+    .message-modal .modal-body .mail-icon {
+        height: 100px;
+        width: 100px;
+    }
+    .message-modal .modal-body {
+        min-height: auto;
+    }
+    .message-modal .modal-body .mail-icon img {
+        max-height: 45px;
+        max-width: 45px;
+        object-fit: contain;
+    }
+    .footer .footer_bottom {
+        padding: 20px 0;
+        display: list-item;
+    }
+    .footer .footer_bottom span {
+        font-size: 12px;
+    }
+    .searchBar .searchContent {
+        height: 50px;
+    }
+    .searchBar .searchContent form .form_control {
+        height: 50px;
+        padding: 12px;
+    }
+    .searchBar .searchContent form .saerch_icon i {
+        height: 55px;
+        width: 55px;
+        line-height: 55px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .header .header-wrapper .logo img {
+        max-height: 55px;
+        max-width: 140px;
+    }
+    .header .header-wrapper .header-conetnt .search-icon {
+        margin-left: 10px;
+    }
+    .header .header-wrapper .header-conetnt .header-nav li .call-btn {
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .header {
+        padding: 15px 0 20px 0;
+    }
+    .hero .hero-wrapper .hero-content h1 {
+        font-size: 40px;
+        line-height: 56px;
+    }
+   
+    .hero .hero-wrapper .hero-img img {
+        max-height: 700px;
+        max-width: 700px;
+        object-fit: contain;
+    }
+}

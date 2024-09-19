@@ -1,0 +1,114 @@
+.mob-navbar-hamburger i {
+  font-size: 20px;
+  color: #666;
+  height: 38px;
+  width: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #c3c3c370;
+  border-radius: 5px;
+  line-height: 0px;
+}
+
+.mob-navbar-offcan {
+  width: 290px;
+}
+.mob-navbar-offcan .offcan-logo img {
+  max-width: 180px;
+  max-height: 50px;
+  object-fit: contain;
+}
+.mob-navbar-offcan .btn-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.offcanvas-body {
+  .header-conetnt {
+    .header-nav {
+      li {
+        cursor: pointer;
+        position: relative;
+        margin-bottom: 10px;
+        &:hover a {
+          width: 100%;
+        }
+        &:hover .sub_down {
+          top: 30px;
+          opacity: 1;
+          margin-top: 0;
+          visibility: visible;
+          padding: 10px 10px 10px 10px;
+        }
+        a {
+          font-size: 14px;
+          color: $blackColor;
+          font-weight: 400;
+          &:hover {
+            color: $primaryColor;
+          }
+          span {
+            color: $primaryColor;
+          }
+        }
+        .sub_down {
+          background-color: #ffffff;
+          border-radius: 6px;
+          padding: 10px 10px 10px 10px;
+          box-shadow: 1px 1.732px 20px 0px rgba(0, 0, 0, 0.3);
+          -webkit-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+          position: absolute;
+          visibility: hidden;
+          display: block;
+          width: 190px;
+          border: none !important;
+          opacity: 0;
+          top: 40px;
+          right: 0;
+          padding: 0;
+          z-index: 10;
+          li {
+            padding: 3px 8px;
+            width: 100%;
+            margin-left: 0px;
+            &:hover a {
+              color: $primaryColor;
+            }
+            a {
+              font-size: 13px;
+              color: #272626;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+    .c-login-btn {
+      padding: 6px 24px;
+      border-radius: 5px;
+      background: linear-gradient(
+        to bottom,
+        #0e66aa,
+        #1062a0,
+        #125e97,
+        #15598d,
+        #185584
+      );
+      font-size: 13px;
+      color: $whiteColor;
+      margin-top: 10px;
+      &:hover {
+        background: linear-gradient(
+          to bottom,
+          #eb7604,
+          #df7207,
+          #d36e0a,
+          #c7690d,
+          #bc650f
+        );
+      }
+    }
+  }
+}
